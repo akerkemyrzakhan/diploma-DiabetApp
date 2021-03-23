@@ -9,11 +9,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var signUpButton: UIButton!
+    
+    @IBOutlet weak var loginButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+//        signUp.layer.cornerRadius = 10
+//        signUp.clipsToBounds = true
     }
 
-
+    @IBAction func signUp(_ sender: Any) {
+        
+    }
+    
 }
 

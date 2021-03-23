@@ -3,19 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		571B7451E3F83D88817C8D86 /* Pods_DiabetApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE66A95451F486192FA11D62 /* Pods_DiabetApp.framework */; };
 		D051E48925FF9ED200D05DDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051E48825FF9ED200D05DDE /* AppDelegate.swift */; };
 		D051E48B25FF9ED200D05DDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051E48A25FF9ED200D05DDE /* SceneDelegate.swift */; };
 		D051E48D25FF9ED200D05DDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D051E48C25FF9ED200D05DDE /* ViewController.swift */; };
 		D051E49025FF9ED200D05DDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D051E48E25FF9ED200D05DDE /* Main.storyboard */; };
 		D051E49225FF9ED600D05DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D051E49125FF9ED600D05DDE /* Assets.xcassets */; };
 		D051E49525FF9ED600D05DDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D051E49325FF9ED600D05DDE /* LaunchScreen.storyboard */; };
+		D09430B42600D6E900149266 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09430B32600D6E900149266 /* SignUpViewController.swift */; };
+		D09430B72600D6FC00149266 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09430B62600D6FC00149266 /* LoginViewController.swift */; };
+		D09430BA2600D72C00149266 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09430B92600D72C00149266 /* HomeViewController.swift */; };
+		D09C5E5B26029971009A3FF2 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D09C5E5A26029971009A3FF2 /* Utilities.swift */; };
+		D0CBCBF12603D5CB002C55EC /* Home2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CBCBF02603D5CB002C55EC /* Home2ViewController.swift */; };
+		D0E5AF092608ECD6003002A1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D0E5AF082608ECD6003002A1 /* GoogleService-Info.plist */; };
+		D0E5AF1B26091614003002A1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E5AF1A26091614003002A1 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1460501B12E60A2736538FF3 /* Pods-DiabetApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiabetApp.debug.xcconfig"; path = "Target Support Files/Pods-DiabetApp/Pods-DiabetApp.debug.xcconfig"; sourceTree = "<group>"; };
+		44DBBC9BA2D13FB69B95AF75 /* Pods-DiabetApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DiabetApp.release.xcconfig"; path = "Target Support Files/Pods-DiabetApp/Pods-DiabetApp.release.xcconfig"; sourceTree = "<group>"; };
 		D051E48525FF9ED200D05DDE /* DiabetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiabetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D051E48825FF9ED200D05DDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D051E48A25FF9ED200D05DDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,14 @@
 		D051E49125FF9ED600D05DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D051E49425FF9ED600D05DDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D051E49625FF9ED600D05DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D09430B32600D6E900149266 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D09430B62600D6FC00149266 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D09430B92600D72C00149266 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D09C5E5A26029971009A3FF2 /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D0CBCBF02603D5CB002C55EC /* Home2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home2ViewController.swift; sourceTree = "<group>"; };
+		D0E5AF082608ECD6003002A1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D0E5AF1A26091614003002A1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FE66A95451F486192FA11D62 /* Pods_DiabetApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DiabetApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				571B7451E3F83D88817C8D86 /* Pods_DiabetApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		760F0FAC56FB86BD5D9C20FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1460501B12E60A2736538FF3 /* Pods-DiabetApp.debug.xcconfig */,
+				44DBBC9BA2D13FB69B95AF75 /* Pods-DiabetApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D051E47C25FF9ED200D05DDE = {
 			isa = PBXGroup;
 			children = (
 				D051E48725FF9ED200D05DDE /* DiabetApp */,
 				D051E48625FF9ED200D05DDE /* Products */,
+				760F0FAC56FB86BD5D9C20FF /* Pods */,
+				FF89200D558FA80CF88611C8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +89,27 @@
 				D051E48825FF9ED200D05DDE /* AppDelegate.swift */,
 				D051E48A25FF9ED200D05DDE /* SceneDelegate.swift */,
 				D051E48C25FF9ED200D05DDE /* ViewController.swift */,
+				D09C5E5A26029971009A3FF2 /* Utilities.swift */,
 				D051E48E25FF9ED200D05DDE /* Main.storyboard */,
 				D051E49125FF9ED600D05DDE /* Assets.xcassets */,
 				D051E49325FF9ED600D05DDE /* LaunchScreen.storyboard */,
+				D0E5AF082608ECD6003002A1 /* GoogleService-Info.plist */,
 				D051E49625FF9ED600D05DDE /* Info.plist */,
+				D09430B32600D6E900149266 /* SignUpViewController.swift */,
+				D09430B62600D6FC00149266 /* LoginViewController.swift */,
+				D09430B92600D72C00149266 /* HomeViewController.swift */,
+				D0CBCBF02603D5CB002C55EC /* Home2ViewController.swift */,
+				D0E5AF1A26091614003002A1 /* Constants.swift */,
 			);
 			path = DiabetApp;
+			sourceTree = "<group>";
+		};
+		FF89200D558FA80CF88611C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE66A95451F486192FA11D62 /* Pods_DiabetApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D051E49925FF9ED600D05DDE /* Build configuration list for PBXNativeTarget "DiabetApp" */;
 			buildPhases = (
+				7216F9F3A55C62F75BDA81EA /* [CP] Check Pods Manifest.lock */,
 				D051E48125FF9ED200D05DDE /* Sources */,
 				D051E48225FF9ED200D05DDE /* Frameworks */,
 				D051E48325FF9ED200D05DDE /* Resources */,
+				FD9AFDD81174CAFE4AFA7637 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,12 +172,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				D051E49525FF9ED600D05DDE /* LaunchScreen.storyboard in Resources */,
+				D0E5AF092608ECD6003002A1 /* GoogleService-Info.plist in Resources */,
 				D051E49225FF9ED600D05DDE /* Assets.xcassets in Resources */,
 				D051E49025FF9ED200D05DDE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7216F9F3A55C62F75BDA81EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DiabetApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD9AFDD81174CAFE4AFA7637 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiabetApp/Pods-DiabetApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DiabetApp/Pods-DiabetApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DiabetApp/Pods-DiabetApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D051E48125FF9ED200D05DDE /* Sources */ = {
@@ -139,7 +229,13 @@
 			files = (
 				D051E48D25FF9ED200D05DDE /* ViewController.swift in Sources */,
 				D051E48925FF9ED200D05DDE /* AppDelegate.swift in Sources */,
+				D09C5E5B26029971009A3FF2 /* Utilities.swift in Sources */,
+				D09430B42600D6E900149266 /* SignUpViewController.swift in Sources */,
+				D09430B72600D6FC00149266 /* LoginViewController.swift in Sources */,
 				D051E48B25FF9ED200D05DDE /* SceneDelegate.swift in Sources */,
+				D0CBCBF12603D5CB002C55EC /* Home2ViewController.swift in Sources */,
+				D09430BA2600D72C00149266 /* HomeViewController.swift in Sources */,
+				D0E5AF1B26091614003002A1 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +379,7 @@
 		};
 		D051E49A25FF9ED600D05DDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1460501B12E60A2736538FF3 /* Pods-DiabetApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +399,7 @@
 		};
 		D051E49B25FF9ED600D05DDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44DBBC9BA2D13FB69B95AF75 /* Pods-DiabetApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
