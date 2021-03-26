@@ -16,6 +16,8 @@ class HomeViewController: UIViewController {
         //self.view.backgroundView = UIImageView(image: UIImage(named: "welcome"))
         //self.view.backgroundColor = UIColor(patternImage: UIImage(named: "welcome")!)
         // Do any additional setup after loading the view.
+        
+        
     }
     
 

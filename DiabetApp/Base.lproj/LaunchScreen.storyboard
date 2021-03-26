@@ -17,9 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Снимок экрана 2021-03-15 в 20.10.53" translatesAutoresizingMaskIntoConstraints="NO" id="RJi-aE-gwF">
-                                <rect key="frame" x="0.0" y="318" width="414" height="595"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Diabet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOy-M0-Ong">
                                 <rect key="frame" x="45" y="219" width="195" height="91"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="64"/>
@@ -32,18 +29,23 @@
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Снимок экрана 2021-03-15 в 20.10.53" translatesAutoresizingMaskIntoConstraints="NO" id="RJi-aE-gwF">
+                                <rect key="frame" x="0.0" y="318" width="414" height="578"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="GOy-M0-Ong" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="7GG-3X-Skp"/>
-                            <constraint firstItem="RJi-aE-gwF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9tY-2D-jxq"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="RJi-aE-gwF" secondAttribute="bottom" constant="-51" id="EuM-Cc-ctO"/>
-                            <constraint firstItem="GOy-M0-Ong" firstAttribute="baseline" secondItem="pxc-Lq-JIX" secondAttribute="baseline" id="HuE-KA-V6J"/>
-                            <constraint firstItem="RJi-aE-gwF" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="MKr-6c-moN"/>
-                            <constraint firstItem="RJi-aE-gwF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="274" id="UKf-YK-RXV"/>
-                            <constraint firstItem="GOy-M0-Ong" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="175" id="jmB-ei-anw"/>
-                            <constraint firstItem="pxc-Lq-JIX" firstAttribute="leading" secondItem="GOy-M0-Ong" secondAttribute="trailing" constant="8" id="ns9-9W-BeG"/>
+                            <constraint firstItem="GOy-M0-Ong" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="175" id="EJF-5A-ybj"/>
+                            <constraint firstItem="RJi-aE-gwF" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="GgJ-HQ-fpM"/>
+                            <constraint firstAttribute="trailing" secondItem="RJi-aE-gwF" secondAttribute="trailing" id="Nqd-eB-Ga4"/>
+                            <constraint firstItem="pxc-Lq-JIX" firstAttribute="leading" secondItem="GOy-M0-Ong" secondAttribute="trailing" constant="8" symbolic="YES" id="Q5W-IR-RPc"/>
+                            <constraint firstItem="pxc-Lq-JIX" firstAttribute="baseline" secondItem="GOy-M0-Ong" secondAttribute="firstBaseline" id="Wca-sB-UAT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pxc-Lq-JIX" secondAttribute="trailing" symbolic="YES" id="Zay-XZ-RN0"/>
+                            <constraint firstItem="GOy-M0-Ong" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="bnV-5J-0b3"/>
+                            <constraint firstItem="pxc-Lq-JIX" firstAttribute="baseline" secondItem="GOy-M0-Ong" secondAttribute="baseline" id="dbl-WH-0vK"/>
+                            <constraint firstAttribute="bottom" secondItem="RJi-aE-gwF" secondAttribute="bottom" id="qsx-FE-35Z"/>
+                            <constraint firstItem="RJi-aE-gwF" firstAttribute="top" secondItem="GOy-M0-Ong" secondAttribute="bottom" constant="8" symbolic="YES" id="yEh-LP-hPb"/>
                         </constraints>
                     </view>
                 </viewController>
